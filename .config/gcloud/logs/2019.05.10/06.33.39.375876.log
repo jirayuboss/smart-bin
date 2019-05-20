@@ -1,0 +1,9 @@
+2019-05-10 06:33:39,379 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2019-05-10 06:33:39,685 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'browse']
+2019-05-10 06:33:39,688 DEBUG    root            Running [gcloud.app.browse] with arguments: []
+2019-05-10 06:33:39,730 INFO     ___FILE_ONLY___ Did not detect your browser. Go to this link to view your app:
+
+2019-05-10 06:33:39,732 INFO     root            Display format: "value(url)"
+2019-05-10 06:33:39,733 INFO     ___FILE_ONLY___ https://smart-bin-service.appspot.com
+
+2019-05-10 06:33:39,738 DEBUG    root            SDK update checks are disabled.

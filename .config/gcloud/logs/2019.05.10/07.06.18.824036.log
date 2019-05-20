@@ -1,0 +1,73 @@
+2019-05-10 07:06:18,825 DEBUG    root            Loaded Command Group: [u'gcloud', u'app']
+2019-05-10 07:06:18,829 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'logs']
+2019-05-10 07:06:18,878 DEBUG    root            Loaded Command Group: [u'gcloud', u'app', u'logs', u'tail']
+2019-05-10 07:06:18,881 DEBUG    root            Running [gcloud.app.logs.tail] with arguments: [--service: "default"]
+2019-05-10 07:06:18,883 INFO     ___FILE_ONLY___ Waiting for new log entries...
+
+2019-05-10 07:06:26,603 INFO     ___FILE_ONLY___ 2019-05-10 06:34:05 default[20190510t063117]  "GET /api/v1/SmartBin HTTP/1.1" 301
+
+2019-05-10 07:06:26,604 INFO     ___FILE_ONLY___ 2019-05-10 06:34:08 default[20190510t063117]  "GET /api/v1/SmartBin/ HTTP/1.1" 500
+
+2019-05-10 07:06:26,604 INFO     ___FILE_ONLY___ 2019-05-10 06:34:09 default[20190510t063117]  "GET /favicon.ico HTTP/1.1" 404
+
+2019-05-10 07:06:26,605 INFO     ___FILE_ONLY___ 2019-05-10 06:34:17 default[20190510t063117]  "GET /api/v1/SmartBin/SB02 HTTP/1.1" 404
+
+2019-05-10 07:06:26,605 INFO     ___FILE_ONLY___ 2019-05-10 06:34:17 default[20190510t063117]  "GET /favicon.ico HTTP/1.1" 404
+
+2019-05-10 07:06:26,606 INFO     ___FILE_ONLY___ 2019-05-10 06:37:07 default[20190510t063535]  "GET /api/v1/SmartBin HTTP/1.1" 301
+
+2019-05-10 07:06:26,606 INFO     ___FILE_ONLY___ 2019-05-10 06:37:09 default[20190510t063535]  "GET /api/v1/SmartBin/ HTTP/1.1" 200
+
+2019-05-10 07:06:26,607 INFO     ___FILE_ONLY___ 2019-05-10 06:37:11 default[20190510t063535]  "GET /favicon.ico HTTP/1.1" 404
+
+2019-05-10 07:06:26,607 INFO     ___FILE_ONLY___ 2019-05-10 06:37:43 default[20190510t063535]  "GET /api/v1/sensor_id/SB02 HTTP/1.1" 404
+
+2019-05-10 07:06:26,608 INFO     ___FILE_ONLY___ 2019-05-10 06:37:50 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:06:26,608 INFO     ___FILE_ONLY___ 2019-05-10 06:38:08 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:06:26,609 INFO     ___FILE_ONLY___ 2019-05-10 06:38:10 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:06:26,609 INFO     ___FILE_ONLY___ 2019-05-10 06:38:31 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:06:26,610 INFO     ___FILE_ONLY___ 2019-05-10 06:38:32 default[20190510t063535]  "GET /favicon.ico HTTP/1.1" 404
+
+2019-05-10 07:06:26,610 INFO     ___FILE_ONLY___ 2019-05-10 06:41:41 default[20190510t063535]  "GET /api/v1/SmartBin/SB02 HTTP/1.1" 404
+
+2019-05-10 07:06:26,611 INFO     ___FILE_ONLY___ 2019-05-10 06:41:59 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:06:26,611 INFO     ___FILE_ONLY___ 2019-05-10 06:42:01 default[20190510t063535]  "GET /favicon.ico HTTP/1.1" 404
+
+2019-05-10 07:06:26,612 INFO     ___FILE_ONLY___ 2019-05-10 06:45:11 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:06:26,612 INFO     ___FILE_ONLY___ 2019-05-10 06:59:28 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:06:26,612 INFO     ___FILE_ONLY___ 2019-05-10 07:00:22 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB0 HTTP/1.1" 500
+
+2019-05-10 07:06:26,613 INFO     ___FILE_ONLY___ 2019-05-10 07:02:25 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:09:01,319 INFO     ___FILE_ONLY___ 2019-05-10 07:08:44 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:12:10,858 INFO     ___FILE_ONLY___ 2019-05-10 07:12:00 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:12:21,792 INFO     ___FILE_ONLY___ 2019-05-10 07:12:08 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:12:43,391 INFO     ___FILE_ONLY___ 2019-05-10 07:12:30 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:12:43,392 INFO     ___FILE_ONLY___ 2019-05-10 07:12:32 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:12:54,275 INFO     ___FILE_ONLY___ 2019-05-10 07:12:36 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:13:05,123 INFO     ___FILE_ONLY___ 2019-05-10 07:12:55 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 07:20:03,096 INFO     oauth2client.transport Refreshing due to a 401 (attempt 1/2)
+2019-05-10 07:20:03,097 INFO     oauth2client.client Refreshing access_token
+2019-05-10 07:46:58,566 INFO     ___FILE_ONLY___ 2019-05-10 07:46:47 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 08:09:07,968 INFO     ___FILE_ONLY___ 2019-05-10 08:08:49 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 08:20:03,096 INFO     oauth2client.transport Refreshing due to a 401 (attempt 1/2)
+2019-05-10 08:20:03,097 INFO     oauth2client.client Refreshing access_token
+2019-05-10 08:27:36,900 INFO     ___FILE_ONLY___ 2019-05-10 08:27:26 default[20190510t063535]  "GET /api/v1/SmartBin/sensor_id/SB02 HTTP/1.1" 200
+
+2019-05-10 09:20:03,628 INFO     oauth2client.client Refreshing access_token

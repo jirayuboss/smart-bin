@@ -1,0 +1,7 @@
+2019-05-10 06:30:09,492 DEBUG    root            Loaded Command Group: [u'gcloud', u'config']
+2019-05-10 06:30:09,497 DEBUG    root            Loaded Command Group: [u'gcloud', u'config', u'set']
+2019-05-10 06:30:09,500 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "project", VALUE: "smart-bin-service"]
+2019-05-10 06:30:09,501 INFO     ___FILE_ONLY___ Updated property [core/project].
+
+2019-05-10 06:30:09,501 INFO     root            Display format: "default"
+2019-05-10 06:30:09,507 DEBUG    root            SDK update checks are disabled.
